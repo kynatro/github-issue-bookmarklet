@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/github-issue-bookmarklet/static/css/main.50c825d9.chunk.css",
-    "main.js": "/github-issue-bookmarklet/static/js/main.87fc6b50.chunk.js",
-    "main.js.map": "/github-issue-bookmarklet/static/js/main.87fc6b50.chunk.js.map",
+    "main.js": "/github-issue-bookmarklet/static/js/main.a81cf945.chunk.js",
+    "main.js.map": "/github-issue-bookmarklet/static/js/main.a81cf945.chunk.js.map",
     "runtime-main.js": "/github-issue-bookmarklet/static/js/runtime-main.ee6030ae.js",
     "runtime-main.js.map": "/github-issue-bookmarklet/static/js/runtime-main.ee6030ae.js.map",
-    "static/js/2.e8c042b3.chunk.js": "/github-issue-bookmarklet/static/js/2.e8c042b3.chunk.js",
-    "static/js/2.e8c042b3.chunk.js.map": "/github-issue-bookmarklet/static/js/2.e8c042b3.chunk.js.map",
+    "static/js/2.aee2fa3c.chunk.js": "/github-issue-bookmarklet/static/js/2.aee2fa3c.chunk.js",
+    "static/js/2.aee2fa3c.chunk.js.map": "/github-issue-bookmarklet/static/js/2.aee2fa3c.chunk.js.map",
     "index.html": "/github-issue-bookmarklet/index.html",
-    "precache-manifest.36ea60f88995e4c32578cc609c0288f8.js": "/github-issue-bookmarklet/precache-manifest.36ea60f88995e4c32578cc609c0288f8.js",
+    "precache-manifest.b86e503ee2c92223d34e4879fddd2680.js": "/github-issue-bookmarklet/precache-manifest.b86e503ee2c92223d34e4879fddd2680.js",
     "service-worker.js": "/github-issue-bookmarklet/service-worker.js",
     "static/css/main.50c825d9.chunk.css.map": "/github-issue-bookmarklet/static/css/main.50c825d9.chunk.css.map",
-    "static/js/2.e8c042b3.chunk.js.LICENSE.txt": "/github-issue-bookmarklet/static/js/2.e8c042b3.chunk.js.LICENSE.txt"
+    "static/js/2.aee2fa3c.chunk.js.LICENSE.txt": "/github-issue-bookmarklet/static/js/2.aee2fa3c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ee6030ae.js",
-    "static/js/2.e8c042b3.chunk.js",
+    "static/js/2.aee2fa3c.chunk.js",
     "static/css/main.50c825d9.chunk.css",
-    "static/js/main.87fc6b50.chunk.js"
+    "static/js/main.a81cf945.chunk.js"
   ]
 }

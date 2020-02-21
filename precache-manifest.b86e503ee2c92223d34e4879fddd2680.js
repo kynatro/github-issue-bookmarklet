@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50a393bd899181c5b8b962806fec40d8",
+    "revision": "239cf6ab696f1581da50c7ceb8807372",
     "url": "/github-issue-bookmarklet/index.html"
   },
   {
-    "revision": "a54791bb9038ea064b31",
+    "revision": "dc2a8bee5364c4aba3e5",
     "url": "/github-issue-bookmarklet/static/css/main.50c825d9.chunk.css"
   },
   {
-    "revision": "88bdc6f6e3d873ba8029",
-    "url": "/github-issue-bookmarklet/static/js/2.e8c042b3.chunk.js"
+    "revision": "64bd4bb2a707d3433ed3",
+    "url": "/github-issue-bookmarklet/static/js/2.aee2fa3c.chunk.js"
   },
   {
     "revision": "f32f3f2739f945f6e8e72f406ee3a70f",
-    "url": "/github-issue-bookmarklet/static/js/2.e8c042b3.chunk.js.LICENSE.txt"
+    "url": "/github-issue-bookmarklet/static/js/2.aee2fa3c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a54791bb9038ea064b31",
-    "url": "/github-issue-bookmarklet/static/js/main.87fc6b50.chunk.js"
+    "revision": "dc2a8bee5364c4aba3e5",
+    "url": "/github-issue-bookmarklet/static/js/main.a81cf945.chunk.js"
   },
   {
     "revision": "c3cac16ef18afadd42bf",
