@@ -41,7 +41,7 @@ class GenerateForm extends Component {
 
     const { gitHubProjectUrl } = this.state;
 
-    fetch('bookmarklet.js')
+    fetch(process.env.PUBLIC_URL + '/bookmarklet.js')
       .then((response) => {
         if(!response.ok) {
           throw Error("Failed to Fetch Markdown");
@@ -114,7 +114,7 @@ class GenerateForm extends Component {
         {codeSnippet && (
           <section>
             <p dangerouslySetInnerHTML={this.createCodeSnippetButton()}></p>
-            <p>Drag this button to your bookmark bar</p>
+            <p>Drag this box to your bookmark bar to create the bookmarklet</p>
           </section>
         )}
       </Fragment>
