@@ -4,6 +4,22 @@ Easily submit Github Issues with context to a Github repo of your choice with a 
 
 This script is entirely self-contained within a bookmarklet and loads no external files. It creates a simple form overlay on the webpage being viewed that submits to create a new issue in Github for the code repository given at build time.
 
+## Accessing the web-based bookmarklet generator
+
+Access the web-based bookmarklet generator at https://kynatro.github.io/github-issue-bookmarklet. You can type in a _GitHub Project URL_ and _Bookmarklet Label_ and drag the resulting bookmarklet to your bookmark or favorites bar.
+
+### Supply values via query parameters
+
+You can easily link a pre-configured bookmarklet to other users or browsers by supplying the _GitHub Project URL_ and _Bookmarklet Label_ via query parameters.
+
+Parameter | Description
+------------|-------------
+`gitHubProjectUrl` | The full URL to the project on GitHub
+`bookmarkletLabel` | The label you want on the bookmarklet after you have dragged it to your Bookmark bar
+
+**Example URL:**
+https://kynatro.github.io/github-issue-bookmarklet/?gitHubProjectUrl=https://kynatro.github.io/github-issue-bookmarklet&bookmarkletLabel=New%20Issue
+
 ## Developing locally
 
 ### Start local server
@@ -22,7 +38,7 @@ Deploy the built site to GitHub pages by running:
 $> npm run deploy
 ```
 
-## Generate the bookmarklet
+## CLI bookmarklet URL generation
 
 To build the bookmarklet, you must specify the Github repo URL with the `GITHUB_REPO_URL` environment variable. You can do this by either specifying it inline or via a local `.env` file:
 

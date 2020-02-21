@@ -7,8 +7,8 @@ class GenerateForm extends Component {
 
     this.state = {
       codeSnippet: '',
-      bookmarkletLabel: 'New Issue',
-      gitHubProjectUrl: 'https://github.com/kynatro/github-issue-bookmarklet'
+      bookmarkletLabel: props.bookmarkletLabel,
+      gitHubProjectUrl: props.gitHubProjectUrl
     }
   }
 
@@ -93,6 +93,7 @@ class GenerateForm extends Component {
                 id="gitHubProjectUrl"
                 value={gitHubProjectUrl}
                 onChange={this.handleInputChange}
+                required
                 type="url"
               />
             </p>
@@ -103,6 +104,7 @@ class GenerateForm extends Component {
                 id="bookmarkletLabel"
                 value={bookmarkletLabel}
                 onChange={this.handleInputChange}
+                required
                 type="text"
               />
             </p>
