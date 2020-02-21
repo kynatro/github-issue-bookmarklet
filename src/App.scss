@@ -1,0 +1,120 @@
+$speed: 150ms;
+
+$grid: 4px;
+$space-xs: $grid;
+$space-sm: $grid*2;
+$space-md: $grid*4;
+$space-lg: $grid*6;
+$space-xl: $grid*8;
+
+.App {
+  width: 100%;
+  height: 100vh;
+  padding: 0 $space-md;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 640px;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  line-height: 1.2;
+
+  p {
+    line-height: 1.5;
+  }
+
+  header {
+    h1 {
+      text-align: center;
+    }
+  }
+
+  form {
+    text-align: center;
+    width: 100%;
+  }
+
+  fieldset {
+    border: none;
+    padding: $space-md;
+    margin: 0;
+  }
+
+  label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: $space-md;
+  }
+
+  input[type="text"],
+  input[type="url"] {
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: $space-xs;
+    transition: color 150ms;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+
+    &:focus {
+      color: #333;
+    }
+  }
+
+  input[type="submit"] {
+    background: #7444BF;
+    border: 2px solid #7444bF;
+    border-radius: $space-sm;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color $speed, border-color $speed;
+
+    &:hover {
+      background-color: #553D79;
+    }
+
+    &:focus {
+      border-color: #553D79;
+      outline: none;
+    }
+  }
+
+  section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .bookmarklet {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: $space-md $space-xl;
+    border: 1px solid #ccc;
+    border-radius: $space-xs;
+    background-color: #eee;
+    cursor: grab;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+
+    &:after {
+      content: 'Drag me!';
+      display: block;
+      font-size: 0.7rem;
+      font-style: italic;
+    }
+  }
+}
