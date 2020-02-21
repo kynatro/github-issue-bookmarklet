@@ -12,7 +12,7 @@ class GenerateForm extends Component {
     }
   }
 
-  getSnapshotBeforeUpdate(prevProps, prevState) {
+  componentDidUpdate(prevProps, prevState) {
     if (this.state.gitHubProjectUrl !== prevState.gitHubProjectUrl) {
       this.setState({
         codeSnippet: ''
