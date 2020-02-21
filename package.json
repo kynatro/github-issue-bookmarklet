@@ -7,6 +7,7 @@
     "name": "Dave Shepard",
     "url": "https://github.com/kynatro"
   },
+  "homepage": "https://kynatro.github.io/github-issue-bookmarklet",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -36,8 +37,9 @@
     "build:babel": "npx babel src/bookmarklet.js --out-dir dist --compact=true --minified --delete-dir-on-start --no-comments",
     "build:createURL": "node scripts/createURL.js",
     "copyBookmarklet": "cp -f src/bookmarklet.js public",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "install": "npm run copyBookmarklet",
+    "predeploy": "npm run build",
     "start": "npm run copyBookmarklet && react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
