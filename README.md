@@ -37,4 +37,4 @@ or by prefixing the bookmarklet command:
 $> GITHUB_REPO_URL=https://github.com/kynatro/github-issue-bookmarklet npm run build:bookmarklet
 ```
 
-This script will generate a new bookmarklet `javascript:()` URL and copy it to your clipboard (Mac only). You can alternatively find the built file in `dist/bookmarklet.js` and copy the contents there.
+This script will generate a new bookmarklet `javascript:()` URL and copy it to your clipboard (Mac only).

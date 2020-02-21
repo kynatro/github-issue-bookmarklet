@@ -34,7 +34,7 @@
   "scripts": {
     "build": "react-scripts build",
     "build:bookmarklet": "npm-run-all build:babel build:createURL --silent",
-    "build:babel": "npx babel src/bookmarklet.js --out-dir dist --compact=true --minified --delete-dir-on-start --no-comments",
+    "build:babel": "npx babel src/bookmarklet.js --out-dir tmp --compact=true --minified --delete-dir-on-start --no-comments",
     "build:createURL": "node scripts/createURL.js",
     "copyBookmarklet": "cp -f src/bookmarklet.js public",
     "deploy": "gh-pages -d build",

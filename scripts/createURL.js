@@ -1,7 +1,8 @@
 require('dotenv').config();
 var fs = require('fs');
 var path = require('path');
-var filePath = path.join(__dirname, '../dist/bookmarklet.js');
+var folderPath = path.join(__dirname, '../tmp');
+var filePath = path.join(folderPath, 'bookmarklet.js');
 var file = fs.readFileSync(filePath).toString();
 
 // Properly wrap in a javascript: URL scheme type
@@ -17,3 +18,11 @@ proc.stdin.write(file);
 proc.stdin.end();
 
 console.log("\x1b[32m\x1b[34m%s\x1b[0m", 'NEW BOOKMARKLET COPIED TO CLIPBOARD');
+
+fs.unlink(filePath, (err) => {
+  if (err) {
+    throw err;
+  }
+
+  fs.rmdirSync(folderPath);
+});
